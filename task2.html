@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1,sum of first n natural numbers
+        // function natural(n){
+        //     s=0
+        //     for(i=1;i<=n;i++){
+        //         s+=i
+        //     }
+        //     console.log(s)
+        // }
+        // n=Number(prompt("n:"))
+        // natural(n)
+        
+
+        //2.sum of even numbers upto n
+        // function even(n){
+        //     i=2
+        //     s=0
+        //     while(i<=n){
+        //         if(i%2==0){
+        //             s+=i
+        //         }
+        //         i++
+        //     } return s
+           
+        // }
+        // s=even(8)
+        // console.log(s);
+
+
+        //3.Sum of odd numbers up to N  
+        // function even(n){
+        //     i=1
+        //     s=0
+        //     while(i<=n){
+        //         if(i%2!=0){
+        //             s+=i
+        //         }
+        //         i++
+        //     } return s
+           
+        // }
+        // s=even(8)
+        // console.log(s);
+
+
+        //4.Factorial of N
+
+        // function factorial(n){
+        //     fact=1
+        //     i=1
+        //     while(i<=n){
+        //         fact=fact*i
+        //         i++
+        //     }
+        //     return fact
+        // }
+        // console.log(factorial(5))
+
+
+
+        // n=Number(prompt("n:"))
+        // fact=1
+        // i=1
+        // do{
+        //     fact=fact*i
+        //     i++
+        // }while(i<=n);
+        // console.log(fact)
+
+
+        // function f(n){
+        //     if(n==0 || n==1){
+        //         return 1
+        //     }
+        //     return n*f(n-1)
+        // }
+        // console.log(f(5))
+
+
+        //5.count digits in a positive integer
+        // function count(d){
+        //     while(d>0){
+        //         c++
+        //         d=parseInt(d/10)
+        //     }
+        //     return c
+        // }
+        // c=0
+        // n=Number(prompt("n:"))
+        // console.log(count(n))
+
+
+        //6.reversing of a number
+        // n=Number(prompt("n:"))
+        // rev=0
+        // do{
+        //     r=n%10
+        //     rev=rev*10+r
+        //     n=parseInt(n/10)
+        // }while(n>0);
+        // console.log(rev)
+
+
+        //7.palindrome-True or False
+        // function palindrome(t){
+        //     rev=0
+        //     while(t>0){
+        //     rem=t%10
+        //     rev=rev*10+rem
+        //     t=parseInt(t/10)
+        //     }
+        //     return rev
+        // }
+        // n=Number(prompt("n:"))
+        // t=n
+        // p=palindrome(t)
+        // if(n==p){
+        //     console.log("true");
+        // }
+        // else{
+        //     console.log("false")
+        // }
+
+
+        //8.largest digit in a number
+        // function highest(t){
+        //     h=0
+        //     while(t>0){
+        //     rem=t%10
+        //     if(rem>h){
+        //         h=rem
+        //     }
+        //     t=parseInt(t/10)
+        //     }
+        //     return h
+        // }
+        // n=Number(prompt("n:"))
+        // p=highest(n)
+        // console.log(h)
+
+
+        //9.count occurences of a digit in a number
+        // function count(n,d){
+        //     c=0
+        //     while(n>0){
+        //     rem=n%10
+        //     if(rem==d){
+        //         c+=1
+        //     }
+        //     n=parseInt(n/10)
+        //     }
+        //     return c
+
+        // }
+        // n=Number(prompt("n:"))
+        // d=Number(prompt("d:"))
+        // console.log(count(n,d))
+
+
+        //10.multiplication table
+        // function mul(n){
+        //     for(i=1;i<=10;i++){
+        //         console.log(`${n}*${i}=${n*i}`)
+        //         // console.log(n,"*",i,"=",n*i)
+        //     }
+        // }
+        // n=Number(prompt("n:"))
+        // console.log(mul(n))
+
+
+        //11.sum of squares upto n
+        // function squares(n){
+        //     s=0
+        //     for(i=1;i<=n;i++){
+        //         s+=i**2
+        //     }
+        //     return s
+
+        // }
+        // n=Number(prompt("n:"))
+        // console.log(squares(n))
+
+
+        //12.check prime number
+        // n=Number(prompt("n:"))
+        // prime=true
+        // if(n<=1){
+        //     prime=false
+        // }
+        // else{
+        //     for(i=2;i<=parseInt(n**0.5);i++){
+        //         if(n%i==0){
+        //             prime=false
+        //             break
+        //         }
+        //     }
+        // }
+        // if(prime){
+        //     console.log("true")
+        // }
+        // else{
+        //     console.log("false")
+        // }
+
+
+        //13.count prime numbers upto n
+// n=Number(prompt("n:"))
+// for(i=1;i<=n;i++){
+//     prime=true
+//     if(i<=1){
+//         prime=false
+//     }
+//     else if(i==2){
+//         prime=true
+//     }
+//     else{
+//     for(j=2;j<=parseInt(i**0.5);j++){   //j<root(i)
+//         if(i%j==0){
+//             prime=false
+//             break
+//            }
+//         }
+//     }
+//     if(prime){
+//           console.log(i);
+
+//     }
+// }
+
+
+
+//14. GCD
+        // a=Number(prompt("a:"))
+        // b=Number(prompt("b:"))
+        // while(a!=b){
+        //     if(a>b){
+        //         a=a-b
+        //     }
+        //     else{
+        //         b=b-a
+        //     }
+        // }
+        // console.log(a)
+
+
+
+
+//15.Armstrong number
+// n=Number(prompt("Enter a number"));
+// temp=n
+// count=0
+// while(temp>0){
+//     count++
+//     temp=parseInt(temp/10);
+// }
+// temp=n;
+// sum=0;
+// while(temp>0){
+//     rem=temp%10;
+//     sum=sum+rem**count;
+//     temp=parseInt(temp/10);
+// }
+// if(sum==n)
+//     console.log("Armstrong");
+// else
+//     console.log("Not an Armstrong");
+
+
+
+//16.fibnocci series
+// n=Number(prompt("n:"))
+// a=0
+// b=1
+// for(i=1;i<=n;i++){
+//     console.log(a)
+//     t=a
+//     a=b
+//     b=t+b
+// }
+
+
+//18.sum of numbers divisible by 3 or 5 upto n
+// s=0
+// n=Number(prompt("n:"))
+// for(i=1;i<=n;i++){
+//     if (i%3==0 ||i%5==0){
+//         s+=i
+//     }
+// }
+// console.log(s)
+
+
+//19 smallest divisor greater than 1
+// n=Number(prompt("n:"))
+// for(i=2;i<=n;i++){
+//     if(n%i==0){
+//         console.log(i)
+//         break
+//     }
+// }
+
+
+//20.sum of even and odd
+// n=Number(prompt("n:"))
+// es=0
+// os=0
+// while(n>0){
+//     rem=n%10
+//     if(rem%2==0){
+//         es+=rem
+//     }
+//     else{
+//         os+=rem
+//     }
+//     n=parseInt(n/10)
+// }
+// console.log(es,os)
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //1
+        // m=Number(prompt("account balance:"))
+        // n=Number(prompt("withdrawl amount:"))
+        // if (n <= m) {
+        //     if (n % 100 == 0) {
+        //         console.log("withdraw successful");
+        //     }
+        //     else {
+        //         console.log("enter amount in multiples of 100");
+        //     }
+        // }
+        // else {
+        //     console.log("insufficient balance");
+        // }
+
+
+        //2
+        // n = Number(prompt("withdrawl amount:"))
+        // m = Number(prompt("account balance:"))
+        // if (n <= m) {
+        //     if (n % 100 == 0) {
+        //         console.log("withdraw successful");
+        //         console.log("remaining balance",m-n);
+        //         console.log("receipt downloading,wait...");
+                
+        //     }
+        //     else {
+        //         console.log("enter amount in multiples of 100");
+        //     }
+        // }
+        // else {
+        //     console.log("insufficient balance");
+        // }
+
+        //3
+        n = Number(prompt("age:"))
+        m = Number(prompt("salary:"))
+        if(n>=18){
+            if(m>=10000){
+                console.log("loan approved"); 
+            }
+            else{
+                console.log("rejected");
+            }
+        }
+        else{
+            console.log("not eligible");
+        }
+    </script>
+</body>
+
+</html>

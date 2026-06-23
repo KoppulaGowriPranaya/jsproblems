@@ -463,3 +463,5 @@
 // } else {
 //     console.log("The number does not satisfy all the conditions.");
 // }
+
+
